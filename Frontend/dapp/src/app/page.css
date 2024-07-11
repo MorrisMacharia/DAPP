@@ -1,0 +1,52 @@
+.DApp {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    /* background-color: #f9f9f9; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.DApp h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.DApp p {
+    margin-bottom: 5px;
+}
+
+.DApp input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.DApp button {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.DApp button:hover {
+    background-color: #e05238;
+}
+
+.DApp p:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .DApp {
+        width: 90%;
+    }
+}
